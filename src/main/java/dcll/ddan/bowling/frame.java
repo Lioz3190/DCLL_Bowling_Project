@@ -5,5 +5,14 @@ package dcll.ddan.bowling;
  */
 
 /* réponse à l'exigence Frame #1 */
-public class frame {
+public class Frame {
+    private int lancer;
+
+    /* réponse à l'exigence #8 */
+    public Frame(){
+        this.lancer = 2;
+    }
+
+
+
 }
