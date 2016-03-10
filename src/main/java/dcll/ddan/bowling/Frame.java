@@ -12,4 +12,12 @@ public class Frame {
     public Frame() {
         this.quillesTombees = new Lancer[2];
     }
+
+    public Lancer[] getQuillesTombees() {
+        return quillesTombees;
+    }
+
+    public void setQuillesTombees(Lancer[] quillesTombees) {
+        this.quillesTombees = quillesTombees;
+    }
 }
