@@ -6,12 +6,13 @@ package dcll.ddan.bowling;
 
 /* réponse à l'exigence Frame #1 */
 public class Frame {
-    private int lancer;
+    private Lancer quillesTombées[];
 
     /* réponse à l'exigence #8 */
     public Frame(){
-        this.lancer = 2;
+        this.quillesTombées = new Lancer[2];
     }
+
 
 
 
