@@ -9,11 +9,7 @@ public class Frame {
     private Lancer quillesTombées[];
 
     /* réponse à l'exigence #8 */
-    public Frame(){
+    public Frame() {
         this.quillesTombées = new Lancer[2];
     }
-
-
-
-
 }
